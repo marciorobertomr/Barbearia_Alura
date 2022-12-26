@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #CCCCCC;
+    padding: 20px 0;
+}
+
+header div {
+    width: 940px;   
+    margin: 0 auto; 
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+/* RODAPÉ */
+
+footer {
+    text-align: center;
+    background: url("./img/Produtos/bg.jpg");
+    padding: 40px;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    header div, .principal, .mapaConteudo, .conteudoBeneficios, .video, form {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+    nav {
+        position: static;
+    }
+
+    .listaBeneficios, .imagemBeneficios {
+        width: 100%;
+    }
+
+    main ul li {
+        display: block;
+        margin: 20px 3.5em;
+    }
+
+    .contato {
+        display: block;
+        margin-left: 2em;
+    }
+
+    #enviar {
+        width: 35%;
+    }
+
+    .input-padrao {
+        width: 20em;
+    }
+
+    legend, .checkbox {
+        width: 15em;
+    }
+}
