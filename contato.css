@@ -1,5 +1,5 @@
 main {
-    width: 940px;
+    width: 69.7%;
     margin: 0 auto;
 }
 
@@ -28,6 +28,10 @@ form label, form legend {
     margin-bottom: 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+fieldset {
+    margin: 10px auto;
 }
 
 .checkbox {

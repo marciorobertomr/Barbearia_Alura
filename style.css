@@ -20,11 +20,12 @@ nav {
     position: absolute;
     top: 110px;
     right: 0;
+    margin-left: 15px;
 }
 
 nav li {
     display: inline;
-    margin-left: 15px;
+    margin-right: 15px;
 }
 
 nav a {
@@ -55,8 +56,12 @@ footer p {
 }
 
 @media screen and (max-width: 480px) {
-    header div, .principal, .mapaConteudo, .conteudoBeneficios, .video, form {
+    header div, .principal, .mapaConteudo, .conteudoBeneficios {
         width: auto;
+    }
+
+    .principal, .mapa, .beneficios {
+        padding: 1em;
     }
 
     h1 {
@@ -65,28 +70,29 @@ footer p {
     
     nav {
         position: static;
+        text-align: center;
     }
 
-    .listaBeneficios, .imagemBeneficios {
+    .listaBeneficios, .imagemBeneficios, .produtos, .video > iframe {
         width: 100%;
     }
 
     main ul li {
         display: block;
         margin: 20px 3.5em;
-    }
-
-    .contato {
-        display: block;
-        margin-left: 2em;
-    }
-
-    #enviar {
-        width: 35%;
+        width: auto;
     }
 
     .input-padrao {
-        width: 20em;
+        box-sizing: border-box;
+    }
+
+    #enviar {
+        width: 70%;
+    }
+
+    .input-padrao {
+        width: 20.5em;
     }
 
     legend, .checkbox {
