@@ -77,9 +77,103 @@ footer p {
         width: 100%;
     }
 
+    .produtos img {
+        width: 80%;
+    }
+
     main ul li {
         display: block;
         margin: 20px 3.5em;
+        width: auto;
+    }
+
+    .input-padrao {
+        box-sizing: border-box;
+    }
+
+    #enviar {
+        width: 70%;
+    }
+
+    .input-padrao {
+        width: 20.5em;
+    }
+
+    legend, .checkbox {
+        width: 15em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header div, .principal, .mapaConteudo, .conteudoBeneficios {
+        width: auto;
+    }
+
+    .principal, .mapa, .beneficios {
+        padding: 1em;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .listaBeneficios, .imagemBeneficios, .produtos, .video > iframe {
+        width: 100%;
+    }
+
+    main ul li {
+        display: block;
+        margin: 20px 5em;
+        width: auto;
+    }
+
+    .input-padrao {
+        box-sizing: border-box;
+    }
+
+    #enviar {
+        width: 70%;
+    }
+
+    .input-padrao {
+        width: 20.5em;
+    }
+
+    legend, .checkbox {
+        width: 15em;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 950px) {
+    header div, .principal, .mapaConteudo, .conteudoBeneficios {
+        width: auto;
+    }
+
+    .principal, .mapa, .beneficios {
+        padding: 1em;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .listaBeneficios, .imagemBeneficios, .produtos, .video > iframe {
+        width: 100%;
+    }
+
+    main ul li {
+        display: block;
+        margin: 20px 10em;
         width: auto;
     }
 
